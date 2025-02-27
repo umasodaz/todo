@@ -1,3 +1,11 @@
+import AddToDo from "@/components/AddToDo";
+import ToDoList from "@/components/ToDoList";
+
 export default function Home() {
-  return <div>Hello World</div>;
+  return (
+    <div>
+      <AddToDo />
+      <ToDoList />
+    </div>
+    );
 }
